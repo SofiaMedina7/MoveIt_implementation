@@ -1,0 +1,1 @@
+/home/rl-public/workspace/ros_ur_driver/src/kinematics_interface/kinematics_interface/include/kinematics_interface/kinematics_interface.hpp

@@ -1,0 +1,198 @@
+[0.033s] Invoking command in '/home/rl-public/workspace/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rl-public/workspace/install/rqt_joint_trajectory_controller:/home/rl-public/workspace/install/rqt_controller_manager:/home/rl-public/workspace/install/ros2controlcli:/home/rl-public/workspace/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake /home/rl-public/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rl-public/workspace/install/ur_description
+[0.285s] -- The C compiler identification is GNU 11.4.0
+[0.285s] -- The CXX compiler identification is GNU 11.4.0
+[0.285s] -- Detecting C compiler ABI info
+[0.285s] -- Detecting C compiler ABI info - done
+[0.285s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.285s] -- Detecting C compile features
+[0.285s] -- Detecting C compile features - done
+[0.285s] -- Detecting CXX compiler ABI info
+[0.293s] -- Detecting CXX compiler ABI info - done
+[0.300s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.300s] -- Detecting CXX compile features
+[0.300s] -- Detecting CXX compile features - done
+[0.303s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.457s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.520s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.549s] -- Found ament_cmake_pytest: 1.3.10 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[1.711s] -- Configuring done
+[1.723s] -- Generating done
+[1.727s] -- Build files have been written to: /home/rl-public/workspace/build/ur_description
+[1.767s] Invoked command in '/home/rl-public/workspace/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rl-public/workspace/install/rqt_joint_trajectory_controller:/home/rl-public/workspace/install/rqt_controller_manager:/home/rl-public/workspace/install/ros2controlcli:/home/rl-public/workspace/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake /home/rl-public/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rl-public/workspace/install/ur_description
+[1.768s] Invoking command in '/home/rl-public/workspace/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rl-public/workspace/install/rqt_joint_trajectory_controller:/home/rl-public/workspace/install/rqt_controller_manager:/home/rl-public/workspace/install/ros2controlcli:/home/rl-public/workspace/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/rl-public/workspace/build/ur_description -- -j20 -l20
+[1.897s] Invoked command in '/home/rl-public/workspace/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rl-public/workspace/install/rqt_joint_trajectory_controller:/home/rl-public/workspace/install/rqt_controller_manager:/home/rl-public/workspace/install/ros2controlcli:/home/rl-public/workspace/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/rl-public/workspace/build/ur_description -- -j20 -l20
+[2.017s] Invoking command in '/home/rl-public/workspace/build/ur_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rl-public/workspace/install/rqt_joint_trajectory_controller:/home/rl-public/workspace/install/rqt_controller_manager:/home/rl-public/workspace/install/ros2controlcli:/home/rl-public/workspace/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/rl-public/workspace/build/ur_description
+[2.054s] -- Install configuration: ""
+[2.054s] -- Execute custom install script
+[2.054s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/config/initial_positions.yaml
+[2.072s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/config/ur10/default_kinematics.yaml
+[2.099s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/config/ur10/joint_limits.yaml
+[2.134s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/config/ur10/physical_parameters.yaml
+[2.164s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/config/ur10/visual_parameters.yaml
+[2.191s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/config/ur10e/default_kinematics.yaml
+[2.230s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/config/ur10e/joint_limits.yaml
+[2.243s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/config/ur10e/physical_parameters.yaml
+[2.306s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/config/ur10e/visual_parameters.yaml
+[2.332s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/config/ur16e/default_kinematics.yaml
+[2.371s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/config/ur16e/joint_limits.yaml
+[2.406s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/config/ur16e/physical_parameters.yaml
+[2.418s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/config/ur16e/visual_parameters.yaml
+[2.435s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/config/ur20/default_kinematics.yaml
+[2.454s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/config/ur20/joint_limits.yaml
+[2.473s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/config/ur20/physical_parameters.yaml
+[2.501s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/config/ur20/visual_parameters.yaml
+[2.521s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/config/ur3/default_kinematics.yaml
+[2.551s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/config/ur3/joint_limits.yaml
+[2.580s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/config/ur3/physical_parameters.yaml
+[2.606s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/config/ur3/visual_parameters.yaml
+[2.636s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/config/ur30/default_kinematics.yaml
+[2.663s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/config/ur30/joint_limits.yaml
+[2.694s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/config/ur30/physical_parameters.yaml
+[2.722s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/config/ur30/visual_parameters.yaml
+[2.741s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/config/ur3e/default_kinematics.yaml
+[2.763s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/config/ur3e/joint_limits.yaml
+[2.777s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/config/ur3e/physical_parameters.yaml
+[2.791s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/config/ur3e/visual_parameters.yaml
+[2.805s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/config/ur5/default_kinematics.yaml
+[2.819s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/config/ur5/joint_limits.yaml
+[2.843s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/config/ur5/physical_parameters.yaml
+[2.856s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/config/ur5/visual_parameters.yaml
+[2.878s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/config/ur5e/default_kinematics.yaml
+[2.898s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/config/ur5e/joint_limits.yaml
+[2.909s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/config/ur5e/physical_parameters.yaml
+[2.930s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/config/ur5e/visual_parameters.yaml
+[2.957s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/launch/view_ur.launch.py
+[2.960s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur10/collision/base.stl
+[2.994s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur10/collision/forearm.stl
+[3.026s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur10/collision/shoulder.stl
+[3.058s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur10/collision/upperarm.stl
+[3.083s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur10/collision/wrist1.stl
+[3.098s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur10/collision/wrist2.stl
+[3.111s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur10/collision/wrist3.stl
+[3.141s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur10/visual/base.dae
+[3.143s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur10/visual/forearm.dae
+[3.157s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur10/visual/shoulder.dae
+[3.173s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur10/visual/upperarm.dae
+[3.186s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur10/visual/wrist1.dae
+[3.199s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur10/visual/wrist2.dae
+[3.223s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur10/visual/wrist3.dae
+[3.238s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur10e/collision/base.stl
+[3.250s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur10e/collision/forearm.stl
+[3.265s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur10e/collision/shoulder.stl
+[3.281s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur10e/collision/upperarm.stl
+[3.295s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist1.stl
+[3.308s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist2.stl
+[3.324s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur10e/collision/wrist3.stl
+[3.341s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur10e/visual/base.dae
+[3.355s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur10e/visual/forearm.dae
+[3.370s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur10e/visual/shoulder.dae
+[3.384s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur10e/visual/upperarm.dae
+[3.396s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist1.dae
+[3.412s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist2.dae
+[3.424s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur10e/visual/wrist3.dae
+[3.439s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur16e/collision/forearm.stl
+[3.453s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur16e/collision/upperarm.stl
+[3.467s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur16e/visual/forearm.dae
+[3.481s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur16e/visual/upperarm.dae
+[3.497s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur20/LICENSE.txt
+[3.513s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur20/collision/base.stl
+[3.529s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur20/collision/forearm.stl
+[3.544s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur20/collision/shoulder.stl
+[3.559s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur20/collision/upperarm.stl
+[3.578s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur20/collision/wrist1.stl
+[3.598s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur20/collision/wrist2.stl
+[3.614s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur20/collision/wrist3.stl
+[3.630s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur20/visual/UR20_DIFF_8bit_2K.png
+[3.642s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur20/visual/base.dae
+[3.660s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur20/visual/forearm.dae
+[3.671s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur20/visual/shoulder.dae
+[3.690s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur20/visual/upperarm.dae
+[3.704s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur20/visual/wrist1.dae
+[3.721s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur20/visual/wrist2.dae
+[3.736s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur20/visual/wrist3.dae
+[3.746s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur3/collision/base.stl
+[3.759s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur3/collision/forearm.stl
+[3.773s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur3/collision/shoulder.stl
+[3.789s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur3/collision/upperarm.stl
+[3.802s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur3/collision/wrist1.stl
+[3.817s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur3/collision/wrist2.stl
+[3.834s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur3/collision/wrist3.stl
+[3.847s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur3/visual/base.dae
+[3.867s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur3/visual/forearm.dae
+[3.880s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur3/visual/shoulder.dae
+[3.895s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur3/visual/upperarm.dae
+[3.905s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur3/visual/wrist1.dae
+[3.919s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur3/visual/wrist2.dae
+[3.932s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur3/visual/wrist3.dae
+[3.945s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur30/LICENSE.txt
+[3.957s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur30/collision/forearm.stl
+[3.969s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur30/collision/upperarm.stl
+[3.981s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur30/visual/UR30_DIFF_8bit_2K.png
+[3.993s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur30/visual/forearm.dae
+[4.006s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur30/visual/upperarm.dae
+[4.022s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur3e/collision/base.stl
+[4.035s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur3e/collision/forearm.stl
+[4.048s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur3e/collision/shoulder.stl
+[4.062s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur3e/collision/upperarm.stl
+[4.076s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist1.stl
+[4.089s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist2.stl
+[4.103s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur3e/collision/wrist3.stl
+[4.117s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur3e/visual/base.dae
+[4.130s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur3e/visual/forearm.dae
+[4.143s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur3e/visual/shoulder.dae
+[4.156s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur3e/visual/upperarm.dae
+[4.172s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist1.dae
+[4.183s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist2.dae
+[4.198s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur3e/visual/wrist3.dae
+[4.212s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur5/collision/base.stl
+[4.225s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur5/collision/forearm.stl
+[4.239s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur5/collision/shoulder.stl
+[4.254s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur5/collision/upperarm.stl
+[4.271s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur5/collision/wrist1.stl
+[4.283s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur5/collision/wrist2.stl
+[4.296s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur5/collision/wrist3.stl
+[4.310s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur5/visual/base.dae
+[4.324s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur5/visual/forearm.dae
+[4.338s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur5/visual/shoulder.dae
+[4.353s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur5/visual/upperarm.dae
+[4.367s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur5/visual/wrist1.dae
+[4.381s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur5/visual/wrist2.dae
+[4.396s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur5/visual/wrist3.dae
+[4.410s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur5e/collision/base.stl
+[4.424s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur5e/collision/forearm.stl
+[4.439s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur5e/collision/shoulder.stl
+[4.456s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur5e/collision/upperarm.stl
+[4.479s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist1.stl
+[4.489s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist2.stl
+[4.502s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur5e/collision/wrist3.stl
+[4.517s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur5e/visual/base.dae
+[4.530s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur5e/visual/forearm.dae
+[4.543s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur5e/visual/shoulder.dae
+[4.556s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur5e/visual/upperarm.dae
+[4.572s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist1.dae
+[4.583s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist2.dae
+[4.596s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/meshes/ur5e/visual/wrist3.dae
+[4.611s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/rviz/view_robot.rviz
+[4.625s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/urdf/inc/ur_common.xacro
+[4.638s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/urdf/inc/ur_transmissions.xacro
+[4.653s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/urdf/ur.ros2_control.xacro
+[4.666s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/urdf/ur.urdf.xacro
+[4.678s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/urdf/ur_macro.xacro
+[4.692s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/test/test_ur_urdf_xacro.py
+[4.706s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/test/test_view_ur_launch.py
+[4.720s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ament_index/resource_index/package_run_dependencies/ur_description
+[4.734s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ament_index/resource_index/parent_prefix_path/ur_description
+[4.751s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/environment/ament_prefix_path.sh
+[4.763s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/environment/ament_prefix_path.dsv
+[4.777s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/environment/path.sh
+[4.793s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/environment/path.dsv
+[4.802s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/local_setup.bash
+[4.814s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/local_setup.sh
+[4.824s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/local_setup.zsh
+[4.835s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/local_setup.dsv
+[4.848s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/package.dsv
+[4.862s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ament_index/resource_index/packages/ur_description
+[4.880s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/cmake/ur_descriptionConfig.cmake
+[4.894s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/cmake/ur_descriptionConfig-version.cmake
+[4.913s] -- Symlinking: /home/rl-public/workspace/install/ur_description/share/ur_description/package.xml
+[4.928s] Invoked command in '/home/rl-public/workspace/build/ur_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rl-public/workspace/install/rqt_joint_trajectory_controller:/home/rl-public/workspace/install/rqt_controller_manager:/home/rl-public/workspace/install/ros2controlcli:/home/rl-public/workspace/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/rl-public/workspace/build/ur_description

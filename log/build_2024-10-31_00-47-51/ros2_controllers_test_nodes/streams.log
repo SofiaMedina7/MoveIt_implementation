@@ -1,0 +1,20 @@
+[0.980s] Invoking command in '/home/rl-public/workspace/build/ros2_controllers_test_nodes': PYTHONPATH=/home/rl-public/workspace/build/ros2_controllers_test_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rl-public/workspace/install/ros2_controllers_test_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/rl-public/workspace/build/ros2_controllers_test_nodes/build --no-deps symlink_data
+[1.219s] running develop
+[1.220s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.220s]   warnings.warn(
+[1.385s] running egg_info
+[1.385s] writing ros2_controllers_test_nodes.egg-info/PKG-INFO
+[1.385s] writing dependency_links to ros2_controllers_test_nodes.egg-info/dependency_links.txt
+[1.385s] writing entry points to ros2_controllers_test_nodes.egg-info/entry_points.txt
+[1.386s] writing requirements to ros2_controllers_test_nodes.egg-info/requires.txt
+[1.386s] writing top-level names to ros2_controllers_test_nodes.egg-info/top_level.txt
+[1.387s] reading manifest file 'ros2_controllers_test_nodes.egg-info/SOURCES.txt'
+[1.388s] writing manifest file 'ros2_controllers_test_nodes.egg-info/SOURCES.txt'
+[1.389s] running build_ext
+[1.389s] Creating /home/rl-public/workspace/install/ros2_controllers_test_nodes/lib/python3.10/site-packages/ros2-controllers-test-nodes.egg-link (link to .)
+[1.390s] Installing publisher_forward_position_controller script to /home/rl-public/workspace/install/ros2_controllers_test_nodes/lib/ros2_controllers_test_nodes
+[1.390s] Installing publisher_joint_trajectory_controller script to /home/rl-public/workspace/install/ros2_controllers_test_nodes/lib/ros2_controllers_test_nodes
+[1.390s] 
+[1.390s] Installed /home/rl-public/workspace/build/ros2_controllers_test_nodes
+[1.390s] running symlink_data
+[1.430s] Invoked command in '/home/rl-public/workspace/build/ros2_controllers_test_nodes' returned '0': PYTHONPATH=/home/rl-public/workspace/build/ros2_controllers_test_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rl-public/workspace/install/ros2_controllers_test_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/rl-public/workspace/build/ros2_controllers_test_nodes/build --no-deps symlink_data

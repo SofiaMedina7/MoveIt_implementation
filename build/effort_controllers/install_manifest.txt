@@ -1,0 +1,3 @@
+/home/rl-public/workspace/install/effort_controllers/lib/libeffort_controllers.so
+/home/rl-public/workspace/install/effort_controllers/share/effort_controllers/cmake/export_effort_controllersExport.cmake
+/home/rl-public/workspace/install/effort_controllers/share/effort_controllers/cmake/export_effort_controllersExport-noconfig.cmake
